@@ -12,6 +12,7 @@ import {  Navbar,
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { Timeline } from "@/components/ui/timeline";
+import Image from 'next/image';
  
  
 
@@ -81,28 +82,28 @@ const data = [
           Currently diving deeper into Full Stack Web and App Development in my 2nd year in B.Tech in CSE. Every day is a new chance to learn, build, and grow.Also got my 5th Year Diploma in Fine Arts
           </p>
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/assets/a1.jpg"
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
+            <Image
               src="/assets/a2.jpg"
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
+            <Image
               src="/assets/a3.jpg"
               alt="startup template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
+            <Image
               src="/assets/a4.jpeg"
               alt="startup template"
               width={500}
@@ -121,14 +122,14 @@ const data = [
           Wrapped up my diploma with a solid foundation in the MERN stack. By now, building projects felt more natural, and I knew I was on the right path.
           </p>
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/assets/a5.jpg"
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
+            <Image
               src="/assets/a6.jpg"
               alt="feature template"
               width={500}
@@ -159,14 +160,14 @@ const data = [
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/assets/a7.jpg"
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
+            <Image
               src="/assets/a8.jpg"
               alt="feature template"
               width={500}
@@ -195,15 +196,15 @@ const data = [
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img
-                src="assets/a9.jpg"
+              <Image
+                src="/assets/a9.jpg"
                 alt="hero template"
                 width={500}
                 height={500}
                 className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
               />
-              <img
-                src="assets/a10.jpg"
+              <Image
+                src="/assets/a10.jpg"
                 alt="feature template"
                 width={500}
                 height={500}
@@ -220,14 +221,14 @@ const data = [
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             Gave my Madhyamik (10th board) exams. While most of my friends went for the usual Class 11 route, I took a slightly different path and joined a diploma course in Computer Science.Also typed the very first codes of this journey.</p>
             <div className="grid grid-cols-2 gap-4">
-              <img
+              <Image
                 src="/assets/a11.jpeg"
                 alt="hero template"
                 width={500}
                 height={500}
                 className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
               />
-              <img
+              <Image
                 src="/assets/a12.jpeg"
                 alt="feature template"
                 width={500}

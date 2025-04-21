@@ -70,7 +70,7 @@ function ProjectsPage() {
          <h1 className="pt-20 md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
         PROJECTS
       </h1>
-      <TextGenerateEffect duration={2} filter={false} words={words} />
+      <TextGenerateEffect duration={1} filter={false} words={words} />
       <div className="pt-20 grid grid-cols-1 md:grid-cols-3 gap-6">
           <CardOfProjects
           title="Portfolio V1"

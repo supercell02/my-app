@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image"; // Import next/image
 import { Navbar, NavBody, NavItems, MobileNav, MobileNavHeader, MobileNavMenu, MobileNavToggle, NavbarLogo, NavbarButton } from "@/components/ui/resizable-navbar";
 import { Button } from "@/components/ui/moving-border";
 
@@ -73,7 +74,7 @@ function SkillsPart() {
           { src: "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg", label: "Dart" },
         ].map(({ src, label }, idx) => (
           <div key={idx} style={{ display: "flex", alignItems: "center", gap: "10px", justifyContent: "center" }}>
-            <img src={src} width="30" height="30" alt={label} />
+            <Image src={src} width={30} height={30} alt={label} /> {/* Replaced img with Image */}
             <p style={{ margin: 0 }}>{label}</p>
           </div>
         ))}
@@ -91,7 +92,7 @@ function SkillsPart() {
           { src: "https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg", label: "Bootstrap" },
         ].map(({ src, label }, idx) => (
           <div key={idx} style={{ display: "flex", alignItems: "center", gap: "10px", justifyContent: "center" }}>
-            <img src={src} width="30" height="30" alt={label} />
+            <Image src={src} width={30} height={30} alt={label} /> {/* Replaced img with Image */}
             <p style={{ margin: 0 }}>{label}</p>
           </div>
         ))}
@@ -108,7 +109,7 @@ function SkillsPart() {
           { src: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg", label: "Firebase" },
         ].map(({ src, label }, idx) => (
           <div key={idx} style={{ display: "flex", alignItems: "center", gap: "10px", justifyContent: "center" }}>
-            <img src={src} width="30" height="30" alt={label} />
+            <Image src={src} width={30} height={30} alt={label} /> {/* Replaced img with Image */}
             <p style={{ margin: 0 }}>{label}</p>
           </div>
         ))}
@@ -123,7 +124,7 @@ function SkillsPart() {
           { src: "https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg", label: "Illustrator" },
         ].map(({ src, label }, idx) => (
           <div key={idx} style={{ display: "flex", alignItems: "center", gap: "10px", justifyContent: "center" }}>
-            <img src={src} width="30" height="30" alt={label} />
+            <Image src={src} width={30} height={30} alt={label} /> {/* Replaced img with Image */}
             <p style={{ margin: 0 }}>{label}</p>
           </div>
         ))}
@@ -137,7 +138,7 @@ function SkillsPart() {
           { src: "https://static-00.iconduck.com/assets.00/git-icon-2048x2048-juzdf1l5.png", label: "Git" },
         ].map(({ src, label }, idx) => (
           <div key={idx} style={{ display: "flex", alignItems: "center", gap: "10px", justifyContent: "center" }}>
-            <img src={src} width="30" height="30" alt={label} />
+            <Image src={src} width={30} height={30} alt={label} /> {/* Replaced img with Image */}
             <p style={{ margin: 0 }}>{label}</p>
           </div>
         ))}

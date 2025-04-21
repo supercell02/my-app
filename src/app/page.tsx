@@ -15,6 +15,8 @@ export default function Home() {
     setIsClient(true); // Ensure client-side rendering
   }, []);
 
+  
+
   const navLinks = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
@@ -34,7 +36,7 @@ export default function Home() {
             <NavBody>
               <NavbarLogo />
               <NavItems items={navLinks} />
-              <NavbarButton href="/contact">Let’s Talk</NavbarButton>
+              <NavbarButton href="/contact">Let&rsquo;s Talk</NavbarButton>
             </NavBody>
             <MobileNav>
               <MobileNavHeader>
@@ -90,7 +92,7 @@ export default function Home() {
             layout
           >
             <span className="inline-block">
-              I'm a <ContainerTextFlip words={words} />
+              I&rsquo;m a <ContainerTextFlip words={words} />
             </span>
           </motion.h2>
         </div>

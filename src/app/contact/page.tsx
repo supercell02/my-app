@@ -62,7 +62,7 @@ function Contactpart(){
   return(
     <div>
       <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-        Let's connect and build projects<br /> at <Cover>warp speed</Cover>
+        Let&rsquo;s connect and build projects<br /> at <Cover>warp speed</Cover>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-5 gap-1 justify-items-center">
       <GlareCard
@@ -72,7 +72,7 @@ function Contactpart(){
           textColor="text-white"
       >
        <h3 className="text-lg font-semibold">Email</h3>
-        <p className="text-sm opacity-80">Let's connect—drop me a message anytime!</p>
+        <p className="text-sm opacity-80">Let&rsquo;s connect—drop me a message anytime!</p>
       </GlareCard>
       <GlareCard
           buttonLink="https://www.linkedin.com/in/amar-k-t/"
@@ -81,7 +81,7 @@ function Contactpart(){
           textColor="text-white"
       >
        <h3 className="text-lg font-semibold">LinkedIn</h3>
-        <p className="text-sm opacity-80"> Let’s grow our professional network together.</p>
+        <p className="text-sm opacity-80"> Let&rsquo;s grow our professional network together.</p>
       </GlareCard>
 
       <GlareCard
@@ -91,7 +91,7 @@ function Contactpart(){
           textColor="text-white"
       >
        <h3 className="text-lg font-semibold">GitHub</h3>
-        <p className="text-sm opacity-80"> Check out what I’ve been building lately.</p>
+        <p className="text-sm opacity-80"> Check out what I&rsquo;ve been building lately.</p>
       </GlareCard>
 
       <GlareCard
