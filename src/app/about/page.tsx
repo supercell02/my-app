@@ -79,7 +79,7 @@ const data = [
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Co-Founded a SAAS Startup "FREMN". Along side making several projects and honing my skills in Full Stack Development.Lets see what the future holds!
+          Co-Founded a SAAS Startup FREMN. Along side making several projects and honing my skills in Full Stack Development.Lets see what the future holds!
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
