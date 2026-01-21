@@ -71,21 +71,16 @@ function ProjectsPage() {
         PROJECTS
       </h1>
       <TextGenerateEffect duration={1} filter={false} words={words} />
-      <div className="pt-20 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <CardOfProjects
-          title="Portfolio V1"
-          description="First Ever Portfolio Website.Based on HTML, CSS and JS."
-          link="https://supercell02.github.io/Personal-Website/"
+      <div className="pt-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <CardOfProjects
+          title="SoapBoards"
+          description="Realtime Interactive Whiteboard App with collaborative drawing features."
+          link="https://soapboard.amarkt.me"
         />
           <CardOfProjects
-          title="Dictionary"
-          description="Allows user to search for words and get their meanings.Used API to fetch data."
-          link="https://supercell02.github.io/Dictionary-App/"
-        />
-          <CardOfProjects
-          title="Drum Kit"
-          description="App that allows users to play different sounds by clicking on buttons or pressing keys."
-          link="https://supercell02.github.io/Drum-Kit/"
+          title="SOLVIA"
+          description="AI customer support OS for SMEs"
+          link="https://solvia.fremn.com/"
         />
     </div>
         

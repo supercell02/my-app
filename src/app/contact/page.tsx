@@ -64,7 +64,7 @@ function Contactpart(){
       <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
         Let&rsquo;s connect and build projects<br /> at <Cover>warp speed</Cover>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-1 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-1 justify-items-center">
       <GlareCard
           buttonLink="mailto:kumaramar4880@gmail.com?subject=Let's%20Connect&body=Hi%20Amar,"
           buttonText="Drop a Mail"
@@ -81,7 +81,7 @@ function Contactpart(){
           textColor="text-white"
       >
        <h3 className="text-lg font-semibold">LinkedIn</h3>
-        <p className="text-sm opacity-80"> Let&rsquo;s grow our professional network together.</p>
+        <p className="text-sm opacity-80"> Let&rsquo;s grow our network together.</p>
       </GlareCard>
 
       <GlareCard
@@ -94,15 +94,7 @@ function Contactpart(){
         <p className="text-sm opacity-80"> Check out what I&rsquo;ve been building lately.</p>
       </GlareCard>
 
-      <GlareCard
-          buttonLink="https://www.instagram.com/amar___kr.___thakur?igsh=ejR2a3RsejJ3NzU0"
-          buttonText="Drop a DM"
-          bgColor="bg-[#962fbf]"
-          textColor="text-white"
-      >
-       <h3 className="text-lg font-semibold">Instagram</h3>
-        <p className="text-sm opacity-80">A peek into my everyday life & tech moments.</p>
-      </GlareCard>
+    
 
       <GlareCard
           buttonLink="https://x.com/Amar4880"

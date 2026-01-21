@@ -53,20 +53,22 @@ export const GlareCard = ({
   return (
     <div
       ref={refElement}
-      style={{
-        "--m-x": "50%",
-        "--m-y": "50%",
-        "--r-x": "0deg",
-        "--r-y": "0deg",
-        "--bg-x": "50%",
-        "--bg-y": "50%",
-        "--duration": "300ms",
-        "--opacity": "0",
-        "--radius": "1.5rem",
-        "--foil-size": "100%",
-        "--easing": "ease",
-      } as React.CSSProperties}
-      className="relative isolate [contain:layout_style] [perspective:800px] transition-transform duration-[var(--duration)] ease-[var(--easing)] will-change-transform w-[320px] [aspect-ratio:17/21]"
+      style={
+        {
+          "--m-x": "50%",
+          "--m-y": "50%",
+          "--r-x": "0deg",
+          "--r-y": "0deg",
+          "--bg-x": "50%",
+          "--bg-y": "50%",
+          "--duration": "300ms",
+          "--opacity": "0",
+          "--radius": "1.5rem",
+          "--foil-size": "100%",
+          "--easing": "ease",
+        } as React.CSSProperties
+      }
+      className="relative isolate [contain:layout_style] [perspective:800px] transition-transform duration-[var(--duration)] ease-[var(--easing)] will-change-transform w-[240px] [aspect-ratio:17/21]"
       onPointerMove={(event) => {
         const rotateFactor = 0.4;
         const rect = event.currentTarget.getBoundingClientRect();
@@ -114,15 +116,15 @@ export const GlareCard = ({
             backgroundBlendMode: "hue, hue, hue, overlay",
             backgroundImage: `
               repeating-linear-gradient(
-                0deg,
-                rgb(255,119,115) 5%,
-                rgba(255,237,95,1) 10%,
-                rgba(168,255,95,1) 15%,
-                rgba(131,255,247,1) 20%,
-                rgba(120,148,255,1) 25%,
-                rgb(216,117,255) 30%,
-                rgb(255,119,115) 35%
-              ),
+  0deg,
+  rgba(56, 189, 248, 1) 0%,   /* sky */
+  rgba(167, 139, 250, 1) 20%, /* violet */
+  rgba(244, 114, 182, 1) 40%, /* pink */
+  rgba(34, 211, 238, 1) 60%,  /* cyan */
+  rgba(99, 102, 241, 1) 80%,  /* indigo */
+  rgba(56, 189, 248, 1) 100%
+),
+
               radial-gradient(
                 farthest-corner circle at var(--m-x) var(--m-y),
                 rgba(255,255,255,0.6) 10%,
@@ -130,7 +132,7 @@ export const GlareCard = ({
               )
             `,
             backgroundPosition: "var(--bg-x) var(--bg-y)",
-            backgroundSize: "200% 200%",
+            backgroundSize: "100% 100%",
             backgroundRepeat: "no-repeat",
             clipPath: "inset(0 0 0 0 round var(--radius))",
             transition: "opacity 0.3s ease",
@@ -147,7 +149,7 @@ export const GlareCard = ({
               rel="noopener noreferrer"
               className={cn(
                 "mt-4 inline-block px-4 py-2 text-sm rounded-md border border-white/20 transition-all",
-                hoverColor
+                hoverColor,
               )}
             >
               {buttonText}
