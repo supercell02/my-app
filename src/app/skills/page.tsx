@@ -129,7 +129,7 @@ function SkillsPart() {
       />
 
       <div className="flex justify-center items-center mt-8">
-        <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/assets/Resume AKT.pdf" target="_blank" rel="noopener noreferrer">
           <Button
             borderRadius="1.75rem"
             className="bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800 px-6 py-2"
