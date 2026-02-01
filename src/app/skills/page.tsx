@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image"; // Import next/image
 import { Navbar, NavBody, NavItems, MobileNav, MobileNavHeader, MobileNavMenu, MobileNavToggle, NavbarLogo, NavbarButton } from "@/components/ui/resizable-navbar";
 import { Button } from "@/components/ui/moving-border";
+import { navLinks } from "@/lib/utils";
 
 export default function Contact() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,13 +14,7 @@ export default function Contact() {
     setIsClient(true); // Ensure client-side rendering
   }, []);
 
-  const navLinks = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Projects", link: "/projects" },
-    { name: "Contact", link: "/contact" },
-    { name: "Skills", link: "/skills" },
-  ];
+  
 
   return (
     <html className="dark">
@@ -129,7 +124,7 @@ function SkillsPart() {
       />
 
       <div className="flex justify-center items-center mt-8">
-        <a href="/assets/Resume AKT.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">
           <Button
             borderRadius="1.75rem"
             className="bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800 px-6 py-2"

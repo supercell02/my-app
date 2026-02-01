@@ -5,7 +5,7 @@ import { Navbar, NavBody, NavItems, MobileNav, MobileNavHeader, MobileNavMenu, M
 import { SparklesCore } from "@/components/ui/sparkles";
 import { ContainerTextFlip } from "@/components/ui/container-text-flip";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn, navLinks } from "@/lib/utils";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +17,6 @@ export default function Home() {
 
   
 
-  const navLinks = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Projects", link: "/projects" },
-    { name: "Contact", link: "/contact" },
-    { name: "Skills", link: "/skills" },
-
-  ];
 
   const words = ["Developer", "Designer", "Programmer"];
 
