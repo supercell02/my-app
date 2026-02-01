@@ -10,7 +10,7 @@ import {  Navbar,
   NavbarLogo,
   NavbarButton, } from "@/components/ui/resizable-navbar";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn, navLinks } from "@/lib/utils";
 import { Timeline } from "@/components/ui/timeline";
 import Image from 'next/image';
  
@@ -19,13 +19,6 @@ import Image from 'next/image';
 export default function About() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navLinks = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Projects", link: "/projects" },
-    { name: "Contact", link: "/contact" },
-    { name: "Skills", link: "/skills" },
-  ];
   return (
     <html  className="dark">
       <body className="bg-white dark:bg-black text-black dark:text-white">

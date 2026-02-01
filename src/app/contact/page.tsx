@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Navbar, NavBody, NavItems, MobileNav, MobileNavHeader, MobileNavMenu, MobileNavToggle, NavbarLogo, NavbarButton } from "@/components/ui/resizable-navbar";
 import { Cover } from "@/components/ui/cover";
 import { GlareCard } from "@/components/ui/glare-card";
+import { navLinks } from "@/lib/utils";
 export default function Contact() {
   const [isOpen, setIsOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
@@ -12,13 +13,6 @@ export default function Contact() {
     setIsClient(true); // Ensure client-side rendering
   }, []);
 
-  const navLinks = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Projects", link: "/projects" },
-    { name: "Contact", link: "/contact" },
-    { name: "Skills", link: "/skills" },
-  ];
 
   const words = ["Developer", "Designer", "Programmer"];
 
